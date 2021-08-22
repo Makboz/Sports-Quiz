@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="soccer.css" rel="stylesheet">
+        <title>Soccer</title>
+        <link href="football.png" rel="icon">
+        <script src="soccer.js"></script>
+    </head>
+    
+    <body>
+        <div class="heading">
+            <h1>Soccer Quiz</h1>
+        </div>
+    
+        <div class="container">
+            <h2>Q1. How long are the two halves in a soccer match?</h2>
+            <button class="q1_incorrect">20 minutes</button>
+            <button id="q1_correct">45 minutes</button>
+            <button class="q1_incorrect">30 minutes</button>
+            <button class="q1_incorrect">15 minutes</button>
+            
+            <p id="q1_answer"></p>
+        </div>
+        <br>
+        
+        <div class="container"]>
+            <h2>Q2. How many players does each team have?</h2>
+            <button class="q2_incorrect">22 players</button>
+            <button class="q2_incorrect">7 players</button>
+            <button id="q2_correct">11 players</button>
+            <button class="q2_incorrect">10 players</button>
+            
+            <p id="q2_answer"></p>
+        </div>
+        <br>
+        
+        <div class="container"]>
+            <h2>Q3. How many substitute players can each team have?</h2>
+            <button id="q3_correct">7 players</button>
+            <button class="q3_incorrect">11 players</button>
+            <button class="q3_incorrect">3 players</button>
+            <button class="q3_incorrect">5 players</button>
+            
+            <p id="q3_answer"></p>
+        </div>
+        
+        <div class="container"]>
+            <h2>Q4. How many substitutions can one team make?</h2>
+            <button class="q4_incorrect">7 substitutions</button>
+            <button class="q4_incorrect">11 substitutions</button>
+            <button id="q4_correct">3 substitutions</button>
+            <button class="q4_incorrect">5 substitutions</button>
+            
+            <p id="q4_answer"></p>
+        </div>
+        <br>
+        
+        <div class="container"]>
+            <h2>Q5. What does the red card mean?</h2>
+            <button class="q5_incorrect">A 15 minute break</button>
+            <button class="q5_incorrect">A goal is being awarded to the away team</button>
+            <button id="q5_correct">A player is sent off the field and is forbidden to play the remainder of the match</button>
+            <p id="q5_answer"></p>
+        </div>
+        <br>
+        
+        <div class="container"]>
+            <h2>Q6. How long is each half in extra time?</h2>
+            
+            <input type="text" id="q6_response"> minutes
+            <button id="q6">Submit</button>
+            
+            <p id="q6_answer"></p>
+        </div>
+        <br>
+        
+        <div class="container"]>
+            <h2>Q7. If the ball partially crosses the goal line, will it count as a goal?</h2>
+            <button class="q7_incorrect">Yes</button>
+            <button id="q7_correct">No</button>
+            
+            <p id="q7_answer"></p>
+        </div>
+        <br>
+        
+        <div class="container"]>
+            <h2>Q8. When can offside be called?</h2>
+            <button class="q8_incorrect">When the ball is passed to a player inside the 6-yard goal box</button> <br>
+            <button id="q8_correct">When an attacking player is in front of the last defender when the pass is played through to them</button> <br>
+            <button class="q8_incorrect">When a player intentionally brings his hand in contact with the ball</button> <br>
+            <button class="q8_incorrect">When the goalie carries the ball outside the 6-yard goal box</button>
+            
+            <p id="q8_answer"></p>
+        </div>
+        <br>
+        
+        <button id="end">Finish</button>
+        
+        <p><h3 id="result"></h3></p>
+    </body>
+</html>

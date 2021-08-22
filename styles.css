@@ -1,0 +1,102 @@
+.Heading {
+    background-color: black;
+    color: #fff;
+    margin-bottom: 2rem;
+    padding: 4rem 4rem;
+    text-align: center;
+}
+
+body {
+    background-color: #E8E8E8;
+    
+}
+
+
+p {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+   font-size: 17px;
+   color: black;
+   position: relative;
+   left: 0%;
+   text-align: center;
+}
+
+.sport {
+    font-size: 26px;
+    font-weight: normal;
+}
+
+
+.soccer {
+    background-color: green;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(soccer2.jpg);
+    position: relative;
+    width: 60%;
+    left: 20%;
+    color: #fff;
+    padding: 4.6rem 1rem;
+    margin-bottom: 4.5rem;
+    margin-top: -0.5rem;
+    text-align: center;
+    border: 2px solid black;
+    display:block;
+}
+
+.soccer:hover {
+    background-color: #006400;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url(soccer2.jpg);
+    text-decoration: none;
+    transition: color 20s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+.basketball {
+    background-color: #b5651d;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(basketball.jpg);
+    position: relative;
+    width: 60%;
+    left: 20%;
+
+    color: #fff;
+    padding: 4.6rem 1rem;
+    margin-bottom: 4.5rem;
+    margin-top: -0.5rem;
+    text-align: center;
+    border: 2px solid black;
+    display:block;
+}
+
+.basketball:hover {
+    background-color: #964B00;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url(basketball.jpg);
+    text-decoration: none;
+    transition: color 20s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+
+.cricket {
+    background-color: #B22222;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(cricket.jpg);
+    position: relative;
+    width: 60%;
+    left: 20%;
+
+    color: #fff;
+    padding: 4.6rem 1rem;
+    margin-bottom: 4.5rem;
+    margin-top: -0.5rem;
+    text-align: center;
+    border: 2px solid black;
+    display:block;
+}
+
+.cricket:hover {
+    background-color: #8B0000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(cricket.jpg);
+    text-decoration: none;
+    transition: color 20s ease-in-out, background-color 0.15s ease-in-out;
+}
