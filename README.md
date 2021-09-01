@@ -2,7 +2,7 @@
 An interactive web application targeted at elementary students around the world, with the main aim of testing their knowledge of the rules and regulations of the three most popular sports; Soccer, Basketball and Cricket.
 
 Check out the website: https://sports-quiz.netlify.app/
-
+![sports_quiz](https://user-images.githubusercontent.com/64204835/131758693-db90c1e4-bb86-476f-bdbb-26c73c49f71a.png)
 
 # Development
 #### JavaScript, HTML/CSS
