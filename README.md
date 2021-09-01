@@ -1,4 +1,4 @@
-# Sports-Quiz
+# Sports-Quiz ⚽🏀🏏✍
 An interactive web application targeted at elementary students around the world, with the main aim of testing their knowledge of the rules and regulations of the three most popular sports; Soccer, Basketball and Cricket.
 
 Check out the website: https://sports-quiz.netlify.app/
